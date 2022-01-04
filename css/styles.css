@@ -19,6 +19,7 @@ height: 100vh;
 }
 
 h1{
+  color: var(--app-grey);
   text-align: center;
   margin: 20px 0;
 }
@@ -32,10 +33,49 @@ h1{
   max-width: 400px;
 }
 
+.personas {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.personas img {
+  border-radius: 50%;
+}
+
+.personas div:first-child {
+  margin-top: 7px;
+}
+
+.personas div:last-child {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 1.5rem;
+  background: #F2F2F2;
+}
+
 .btnContainer{
   padding: 20px 0;
   text-align: center;
 }
 .btnContainer button{
-  padding: 5px 15px;
+  background: linear-gradient(110deg,var(--secondary),var(--primary));
+  color: #F2F2F2;
+  font-weight: bolder;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 14px 45px;
+  transition: all 1s ease;
+}
+
+.btnContainer button:hover {
+  background: #F2F2F2;
+  color: var(--secondary);
 }
