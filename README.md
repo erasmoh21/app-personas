@@ -2,4 +2,4 @@
 
 ## Esto es una pagina que consiste en traer datos de personas random a traves de una API con fetch
 
-[Click aqui para ingresar a la pagina]()
+[Click aqui para ingresar a la pagina](https://erasmoh24.github.io/app-de-personas/)
